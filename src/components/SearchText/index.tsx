@@ -5,7 +5,6 @@ import React, {
   useState,
   ReactNode,
 } from 'react';
-import loadingIcon from '../../icons/loading.svg';
 import './index.scss';
 
 export type SearchTextProps = {
