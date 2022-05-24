@@ -69,7 +69,6 @@ const App: FC<{}> = () => {
       <div className="app-content">
         <div className="section">
           <SearchText
-            defaultValue="156908838"
             onSearch={handleSearch}
             placeholder="请输入qq号查询"
             label="QQ:"
