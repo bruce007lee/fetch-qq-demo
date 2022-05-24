@@ -2,13 +2,6 @@ import React from 'react';
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import App from './App';
 
-const sleep = (time = 2000) =>
-  new Promise<void>((resovle) => {
-    setTimeout(() => {
-      resovle();
-    }, time);
-  });
-
 test('testSearchQQ', async () => {
   render(<App />);
   const input = screen.getByPlaceholderText(/请输入qq号查询/i);
